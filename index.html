@@ -68,8 +68,9 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
+    <header> <!--id="particles-js"-->
         <div class="header-content">
+            
             <div class="header-content-inner">
                 <h1 id="homeHeading">Tirocinium</h1>
                 <hr>
@@ -79,6 +80,7 @@
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Läs mer</a>
             </div>
         </div>
+        <canvas class="particles-js-canvas-el" width="1280" height="800" style="width:100%; height:100%;">
     </header>
 
     <section class="bg-primary" id="about">
@@ -153,7 +155,7 @@
                 <hr class="primary">
             </div>
                 <div class="col-lg-6 col-sm-6">
-                    <a href="mailto:charlotte.hedlund@armada.nu" class="portfolio-box">
+                    <div class="portfolio-box">
                         <img src="charlotte1.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -161,15 +163,16 @@
                                     Charlotte Hedlund
                                 </div>
                                 <div class="project-name">
-                                    <p>mailadress@mail.com</p>
+                                    <p></p><a href="mailto:charlotte.hedlund@armada.nu" style="color: white">mailadress@mail.com
+                                    </a>
                                     <p>070-070 07 07</p>
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </div> 
                 </div>
                 <div class="col-lg-6 col-sm-6">
-                    <a href="mailto:axel.ingo@armada.nu" class="portfolio-box">
+                    <div class="portfolio-box">
                         <img src="axel1.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -177,12 +180,12 @@
                                     Axel Ingo
                                 </div>
                                 <div class="project-name">
-                                    <p>mailadress@mail.com</p>
+                                    <p></p><a href="mailto:axel.ingo@armada.nu" style="color: white">mailadress@mail.com</a>
                                     <p>072-222 22 22</p>
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
         <!--
                 <div class="col-lg-6 col-sm-6">
@@ -281,7 +284,10 @@
           });
       });
     </script>
-
+    <!--
+    <script src="js/particles.js"></script>
+    <script src="js/particles_app.js"></script>
+        -->
 </body>
 
 </html>
