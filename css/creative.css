@@ -9,8 +9,9 @@ body {
   width: 100%;
 }
 
-testetst{
-    width: 500px;
+text-center{
+    display: inline-block;
+    text-align: center;
 }
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
