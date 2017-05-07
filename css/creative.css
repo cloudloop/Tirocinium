@@ -9,6 +9,12 @@ body {
   width: 100%;
 }
 
+logotype {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
 text-center{
     display: inline-block;
     text-align: center;
