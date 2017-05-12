@@ -53,7 +53,7 @@ a:focus {
     transition: all 220ms ease-in;
 }
 .type-box {
-    min-height: 50px;
+    min-height: 100px;
 }
 h1,
 h2,
@@ -182,7 +182,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../Graphics/BorggardenJPG.jpg');
+  background-image: url('../Graphics/Borggarden-blured-PNG.png');
   text-align: center;
   color: white;
 }
