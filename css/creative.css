@@ -53,7 +53,7 @@ a:focus {
     transition: all 220ms ease-in;
 }
 .type-box {
-    min-height: 100px;
+    padding: 35px;
 }
 h1,
 h2,
