@@ -16,6 +16,20 @@ h1 {
   text-transform: uppercase;
 }
 
+.title-top {
+    font-size:8vw;
+}
+#konsultibld {
+    position: absolute;
+    clip: rect(0, 100px, 200px, 0);
+}
+.comppic {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
 /* Timeline - Years */
 .timelines-years {
   position: absolute;
