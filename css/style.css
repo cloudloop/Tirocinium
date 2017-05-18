@@ -28,7 +28,19 @@ h1 {
     width: 80%;
     margin: 0 auto;
 }
-
+.comptext {
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+.processT {
+    z-index: 1000;
+    position: absolute;
+    left: 75%;
+    top:5%;
+}
+.processpic {
+    position: relative;
+}
 
 /* Timeline - Years */
 .timelines-years {
