@@ -42,7 +42,9 @@ h1 {
 .processpic {
     position: relative;
 }
-
+.just-text {
+    text-align: justify;
+}
 /* Timeline - Years */
 .timelines-years {
   position: absolute;
