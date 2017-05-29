@@ -31,6 +31,7 @@ h1 {
 .comptext {
     padding-top: 1em;
     padding-bottom: 3em;
+    text-align: justify;
 }
 .processT {
     z-index: 1000;
