@@ -34,6 +34,10 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     
+    <!-- MAPBOX -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css' rel='stylesheet' />
+    
 </head>
 
 <body id="page-top">
@@ -210,7 +214,16 @@
             <li><a href="http://www.instagram.com"></a></li>
         </ul>
         
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8136.346003886104!2d18.071469161338584!3d59.34820387748126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssv!2sse!4v1494080815442" width="100%" height="300px" margin="0px" padding="0px;"  frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div id='map' style='width: 100%; height: 300px;'></div>
+        <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoidGlyb3RlY2giLCJhIjoiY2ozcmYzMGdrMDA4djJ2bjNvZGY0c3R2YSJ9.TbSQTQpZ63OzyiP6aZvxtw';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        center: [-122.420679, 37.772537],
+        style: 'mapbox://styles/mapbox/light-v9',
+        interactive: false
+        });
+        </script>
     </aside>
     
 </footer>
